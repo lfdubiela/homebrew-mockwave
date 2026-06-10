@@ -1,26 +1,26 @@
 class Mockwave < Formula
   desc "Open-source multi-protocol mock server (HTTP, GraphQL, SOAP, gRPC)"
   homepage "https://github.com/lfdubiela/mockwave"
-  version "0.5.0"
+  version "0.15.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lfdubiela/mockwave/releases/download/v0.5.0/mockwave-darwin-arm64"
-      sha256 "d42181a93f3ab4b56febdcb3c7863cf3c44851dcc6eee50a8b2bb941ecb81820"
+      url "https://github.com/lfdubiela/mockwave/releases/download/v0.15.2/mockwave-darwin-arm64"
+      sha256 "c9b88985571944e67822fd728f62b1fceee0277adc1db9d381fbca9b1acdc768"
     else
-      url "https://github.com/lfdubiela/mockwave/releases/download/v0.5.0/mockwave-darwin-amd64"
-      sha256 "e12c12c078bccd501a63d87cb37e3a9b7b0541b2f59c55999ad383a9c3f473ba"
+      url "https://github.com/lfdubiela/mockwave/releases/download/v0.15.2/mockwave-darwin-amd64"
+      sha256 "3a0045de0d00f5eb864e87b9ad9bd8777460feb97d9c983180ea37ff267d7f70"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/lfdubiela/mockwave/releases/download/v0.5.0/mockwave-linux-arm64"
-      sha256 "f5be5b624718a75ecd64034db6d49d8342b496e9214bd1f6cfd0ab68186e461b"
+      url "https://github.com/lfdubiela/mockwave/releases/download/v0.15.2/mockwave-linux-arm64"
+      sha256 "2dcfcbfc3b773fef1fa3de8b6df07c637c57d962eae32ae8544175ae628af695"
     else
-      url "https://github.com/lfdubiela/mockwave/releases/download/v0.5.0/mockwave-linux-amd64"
-      sha256 "47ffda7714672f99d6676428558d4e9401a5e684d471e5fb1d6366f7b4dd74e3"
+      url "https://github.com/lfdubiela/mockwave/releases/download/v0.15.2/mockwave-linux-amd64"
+      sha256 "5b7c916c1c2a47b74895ce30761380bac99aa5823d0f6e30a7f24604e3a15723"
     end
   end
 
